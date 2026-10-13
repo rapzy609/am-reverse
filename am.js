@@ -120,7 +120,7 @@ async function auth(email, raw) {
 }
 
 async function pro(id) {
-  const o = 'neo-' + crypto.randomBytes(6).toString('hex')
+  const o = 'rap-' + crypto.randomBytes(6).toString('hex')
   const b = {
     data: {
       productId: 'am.full.sub.annual.19q4',
